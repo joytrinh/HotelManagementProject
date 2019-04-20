@@ -1,0 +1,17 @@
+{
+  "MaSo": "A11",
+  "Ten": "Phòng A11",
+  "TrangThai": 0,
+  "LoaiPhong": {
+    "MaSo": "Single",
+    "Ten": "Single Room",
+    "TienNghi": "Máy điều hòa nhiệt độ cục bộ; Thang máy; Wifi miễn phí",
+    "DonGia": 500000,
+    "SoKhachToiDa": 1
+  },
+  "KhuVuc": {
+    "Ten": "Khu Vuc A",
+    "MaSo": "KVA",
+    "SoTang": 4
+  }
+}

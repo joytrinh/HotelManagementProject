@@ -1,0 +1,24 @@
+{
+  "MaSo": "QL_1",
+  "HoTen": "Lưu Thanh Tuấn",
+  "TenDangNhap": "QL_1",
+  "MatKhau": "QL_1",
+  "DanhSachKhuVuc":
+  [
+    {
+      "Ten": "Khu Vuc A",
+      "MaSo": "KVA",
+      "SoTang": 4
+    },
+    {
+      "Ten": "Khu Vuc B",
+      "MaSo": "KVB",
+      "SoTang": 4
+    },
+    {
+      "Ten": "Khu Vuc C",
+      "MaSo": "KVC",
+      "SoTang": 4
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "MaSo": "B44",
+  "Ten": "Phòng B44",
+  "TrangThai": 1,
+  "LoaiPhong": {
+    "MaSo": "VIP",
+    "Ten": "Phòng VIP",
+    "TienNghi": "Máy điều hòa nhiệt độ cục bộ; Thang máy; Wifi miễn phí; TV màn hình phẳng; Máy sấy tóc; Mini Bar; Két sắt an toàn",
+    "DonGia": 1500000,
+    "SoKhachToiDa": 2
+  },
+  "KhuVuc": {
+    "MaSo": "KVB",
+    "Ten": "Khu Vuc B",
+    "So Tang": 4
+  }
+}
