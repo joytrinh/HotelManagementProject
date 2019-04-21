@@ -6,6 +6,7 @@
     }
     var MaSoChucNang = Request["Th_MaSoChucNang"];
     var ChuoiTraCuu = Request["Th_ChuoiTraCuu"];
+    var TraCuuTheoKhuVuc = Request["KHUVUC"];
     var DanhSachPhong = XL_LuuTru.DocDanhSachPhong();
     var DanhSachXem = DanhSachPhong;
     var Dia_chi_Media = XL_TheHien.Dia_chi_Media;
@@ -22,6 +23,23 @@
     else if (MaSoChucNang == "TraCuuThongTinPhong")
     {
         DanhSachXem = XL_NghiepVu.TraCuuThongTinPhong(ChuoiTraCuu, DanhSachPhong);
+        ChuoiHTMLKetQua = XL_TheHien.TaoChuoiHTMLDanhSachPhong(DanhSachXem);
+    }
+    else if (MaSoChucNang == "ThongTinTheoKhuVucHoacTiepTan")
+    {
+        if (TraCuuTheoKhuVuc == "KVA")
+        {
+            ChuoiTraCuu = "Khu Vực A";
+        }
+        else if (TraCuuTheoKhuVuc == "KVB")
+        {
+            ChuoiTraCuu = "Khu Vực B";
+        }
+        else if(TraCuuTheoKhuVuc == "KVC")
+        {
+            ChuoiTraCuu = "Khu Vực C";
+        }
+        DanhSachXem = XL_NghiepVu.TraCuuThongTinPhong(TraCuuTheoKhuVuc, DanhSachPhong);
         ChuoiHTMLKetQua = XL_TheHien.TaoChuoiHTMLDanhSachPhong(DanhSachXem);
     }
 }
@@ -55,9 +73,16 @@
             <div class="btn  CHUC_NANG">
                 <form method="post">
                     <input name="Th_MaSoChucNang" type="hidden" value="TraCuuThongTinPhong" />
-                    <input name="Th_ChuoiTraCuu"
-                           spellcheck="false" autocomplete="off" />
+                    <input name="Th_ChuoiTraCuu" spellcheck="false" autocomplete="off" />
                     <button class="btn btn-primary" type="submit">Tra Cứu</button>
+                </form>
+                <br />
+                <form method="post">
+                    <input name="Th_MaSoChucNang" type="hidden" value="ThongTinTheoKhuVucHoacTiepTan" />
+                    <input type="radio" name="KHUVUC" value="KVA">Khu Vực A
+                    <input type="radio" name="KHUVUC" value="KVB">Khu Vực B
+                    <input type="radio" name="KHUVUC" value="KVC">Khu Vực C
+                    <button class="btn btn-warning" type="submit">Tra Cứu</button>
                 </form>
             </div>
         </div>

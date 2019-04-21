@@ -23,7 +23,7 @@ public class XL_TheHien
             else
                 TrangThai = "Còn trống";
             var ChuoiHinh = $"<img  src='{Dia_chi_Media}/{Phong.MaSo}.jpg' " +
-                                    "style='height:120px; display:block; margin-left:0px;' />";
+                                    "style='width:200px;height:120px; display:block; margin-left:0px;' />";
             var ChuoiThongTin = "<div style='text-align:left;'>" +
                             $"<b>{Phong.Ten}</b>" +
                             $"<br />Trạng thái:{TrangThai}" +
