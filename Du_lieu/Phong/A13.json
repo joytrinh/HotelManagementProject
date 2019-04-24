@@ -12,6 +12,96 @@
   "KhuVuc": {
     "MaSo": "KVA",
     "Ten": "Khu Vuc A",
-    "So Tang": 4
-  }
+    "SoTang": 4
+  },
+  "DanhSachPhieuThuePhong": [
+    {
+      "MaSo": "003",
+      "TenPhong": "Phòng A13",
+      "NgayBatDau": "2019-04-20T00:00:00",
+      "NgayDuKienTra": "2019-04-22T00:00:00",
+      "NgayTraPhong": "2019-04-23T00:00:00",
+      "DanhSachKhachHang": [
+        {
+          "HoTen": "Nguyễn Thành Tâm",
+          "CMND": "368128111"
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        }
+      ],
+      "TienThue": 1500000
+    },
+    {
+      "MaSo": "004",
+      "TenPhong": "Phòng A13",
+      "NgayBatDau": "2019-04-30T00:00:00",
+      "NgayDuKienTra": "2019-05-01T00:00:00",
+      "NgayTraPhong": "2019-05-01T00:00:00",
+      "DanhSachKhachHang": [
+        {
+          "HoTen": "Nguyễn AnhThư",
+          "CMND": "0298901234"
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        }
+      ],
+      "TienThue": 500000
+    },
+    {
+      "MaSo": "004",
+      "TenPhong": "Phòng A13",
+      "NgayBatDau": "2019-04-30T00:00:00",
+      "NgayDuKienTra": "2019-05-01T00:00:00",
+      "NgayTraPhong": "2019-05-01T00:00:00",
+      "DanhSachKhachHang": [
+        {
+          "HoTen": "Nguyễn AnhThư",
+          "CMND": "0298901234"
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        }
+      ],
+      "TienThue": 500000
+    },
+    {
+      "MaSo": "004",
+      "TenPhong": "Phòng A13",
+      "NgayBatDau": "2019-04-30T00:00:00",
+      "NgayDuKienTra": "2019-05-01T00:00:00",
+      "NgayTraPhong": "2019-05-01T00:00:00",
+      "DanhSachKhachHang": [
+        {
+          "HoTen": "Nguyễn AnhThư",
+          "CMND": "0298901234"
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        },
+        {
+          "HoTen": "",
+          "CMND": ""
+        }
+      ],
+      "TienThue": 500000
+    }
+  ]
 }
